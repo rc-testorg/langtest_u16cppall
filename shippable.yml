@@ -2,7 +2,7 @@ language: c
 
 compiler:
   - gcc
-  - clang
+ # - clang
 
 build:
   pre_ci_boot:
@@ -10,13 +10,7 @@ build:
     image_tag: master
     pull: true  
     
-  pre_ci:
-    - echo 'true'
 
   ci:
     - gcc --version
-    #- ./configure && make && make install
-    #- ./hello
-
-  post_ci:
-    - echo "true"
+  
