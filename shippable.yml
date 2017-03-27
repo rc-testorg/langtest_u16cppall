@@ -3,7 +3,22 @@ language: c
 compiler:
   - gcc
  # - clang
-
+services:
+  - cassandra 
+  - couchdb 
+ # - elasticsearch 
+  - memcached 
+  - mongodb 
+  - mysql 
+  - neo4j 
+  - postgres 
+  - rabbitmq 
+  - redis 
+  - rethinkdb 
+  - riak 
+  - selenium 
+  - sqllite 
+  
 build:
   pre_ci_boot:
     image_name: drydock/u16cppall
