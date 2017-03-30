@@ -3,11 +3,7 @@ language: c
 compiler:
   - gcc
  # - clang
-services:
-  
-  - elasticsearch 
- 
-  
+
 build:
   pre_ci_boot:
     image_name: drydock/u16cppall
