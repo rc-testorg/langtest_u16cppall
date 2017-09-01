@@ -9,7 +9,5 @@ build:
     image_name: drydock/u16cppall
     image_tag: master
     pull: true  
-    
-  
   ci:
     - gcc --version
