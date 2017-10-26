@@ -8,9 +8,7 @@ build:
   pre_ci_boot:
     image_name: drydock/u16cppall
     image_tag: master
-    pull: true  
+    pull: true 
+    
   ci:
     - gcc --version
-    
-    
-
